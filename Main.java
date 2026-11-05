@@ -60,7 +60,7 @@ public class Main {
             } else {
                 System.out.println("Opcio no valida.");
             }
-
+            mascota.bailar();
             mascota.comprovarVida();
         }
 
@@ -69,5 +69,8 @@ public class Main {
             mascota.mostrar();
             System.out.println(mascota.nom + " ha mort. Game over.");
         }
+
+        mascota.bailar();
+
     }
 }

@@ -89,4 +89,7 @@ public class Mascota {
             viva = false;
         }
     }
+    public void bailar(){
+        System.out.println(this.nom + " está bailando un mambo!");
+    }
 }
